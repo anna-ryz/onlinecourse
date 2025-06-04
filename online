@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Make Your Own Soy Candles Course</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffdf8;
+      color: #333;
+    }
+    header {
+      background-color: #fff1e6;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 28px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto 20px;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .video-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .feature {
+      flex: 1 1 250px;
+      background: #fdf6ec;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 300px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #f4a261;
+      color: white;
+      font-size: 20px;
+      padding: 15px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 30px auto;
+      text-align: center;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #e07a3f;
+    }
+    .testimonial {
+      font-style: italic;
+      max-width: 600px;
+      margin: 20px auto;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Make Your Own Soy Candles at Home</h1>
+  <p>A complete beginner course – natural, fun, and gift-worthy!</p>
+</header>
+
+<div class="video-container">
+  <!-- Replace with your video or image -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
+    title="Soy Candle Making Course" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<h2>What You’ll Learn</h2>
+<div class="features">
+  <div class="feature">
+    🌿 Beginner-friendly soy candle making
+  </div>
+  <div class="feature">
+    💰 Low-cost materials you can find at home
+  </div>
+  <div class="feature">
+    🎁 Perfect for gifts or starting a side hustle
+  </div>
+  <div class="feature">
+    🎓 Join over 500 happy students already learning!
+  </div>
+</div>
+
+<h2>What Students Say</h2>
+<div class="testimonial">
+  “This course was exactly what I needed! Clear instructions, and now I make candles for friends and family!” – Sarah M.
+</div>
+<div class="testimonial">
+  “Relaxing, fun, and beautifully explained. Loved every minute.” – Jessica L.
+</div>
+
+<div style="text-align:center;">
+  <a class="cta-button" href="https://www.udemy.com/YOUR_COURSE_LINK/?couponCode=SOYCANDLE" target="_blank">
+    Take the Course on Udemy for $19
+  </a>
+</div>
+
+<footer>
+  &copy; 2025 CandleCourse | All rights reserved
+</footer>
+
+<!-- Facebook Pixel placeholder -->
+<!-- 
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', 'YOUR_PIXEL_ID'); 
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" 
+  src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+</noscript>
+ -->
+
+</body>
+</html>
