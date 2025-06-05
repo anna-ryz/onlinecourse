@@ -11,6 +11,8 @@
       padding: 20px;
       background-color: #fffdf7;
       color: #2a2a2a;
+      font-size: 18px;
+      line-height: 1.6;
     }
     .container {
       max-width: 800px;
@@ -23,6 +25,30 @@
       box-shadow: 0 6px 20px rgba(0,0,0,0.1);
       margin-bottom: 25px;
     }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 28px;
+      margin-top: 40px;
+      color: #d97706;
+    }
+    p {
+      font-size: 20px;
+      color: #444;
+      margin: 10px 0 20px;
+    }
+    ul {
+      text-align: left;
+      max-width: 700px;
+      margin: 20px auto;
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
     .price {
       font-size: 24px;
       margin-top: 12px;
@@ -32,7 +58,7 @@
       margin-right: 12px;
     }
     #countdown {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: bold;
       color: #d62828;
       margin: 24px 0;
@@ -48,14 +74,24 @@
       text-decoration: none;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
       transition: background-color 0.3s ease;
+      display: inline-block;
+      margin-top: 20px;
     }
     .cta-button:hover {
       background-color: #ff4500;
     }
-    .subtext {
-      font-size: 18px;
-      color: #444;
-      margin-top: 10px;
+    .testimonial {
+      background: #fef3c7;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 20px 0;
+      font-style: italic;
+    }
+    .author-bio {
+      background-color: #f1f5f9;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -65,7 +101,7 @@
 
     <img class="hero" src="Снимок экрана 2025-05-12 в 15.57.20.png" alt="Soy candles" />
 
-    <p class="subtext">A complete beginner course – natural, fun, and gift-worthy!</p>
+    <p>A complete beginner course – natural, fun, and gift-worthy!</p>
 
     <div id="countdown">🎁 Special offer ends in: <span id="time"></span></div>
 
@@ -77,6 +113,28 @@
     <a class="cta-button" href="https://www.udemy.com/course/decorative-pillar-soy-candle-making-course/?couponCode=ST21MT30625G2" target="_blank">
       Enroll Now on Udemy
     </a>
+
+    <h2>What You'll Learn</h2>
+    <ul>
+      <li>✅ Overview of essential materials and tools</li>
+      <li>✅ How to create body and decorative candles</li>
+      <li>✅ Techniques for ombre coloring and scenting</li>
+      <li>✅ Step-by-step, beginner-friendly guidance</li>
+    </ul>
+
+    <h2>Meet Your Instructor</h2>
+    <div class="author-bio">
+      <p>Hi! I’m Anna — the creative soul behind Hannah Soy Candles. Since 2022, I’ve been handcrafting unique soy candles that bring warmth and personality into any space.</p>
+      <p>I turned my passion into a business with an Etsy shop, online store, and workshops. Now I’m sharing it all with you on Udemy! 🌿</p>
+    </div>
+
+    <h2>Student Feedback</h2>
+    <div class="testimonial">
+      “This course was exactly what I needed! Clear instructions, and now I make candles for friends and family!” – <strong>Sarah M.</strong>
+    </div>
+    <div class="testimonial">
+      “Relaxing, fun, and beautifully explained. Loved every minute.” – <strong>Jessica L.</strong>
+    </div>
   </div>
 
   <script>
